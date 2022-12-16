@@ -1,0 +1,289 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+
+* { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  * { font-family: 'Inter var', sans-serif; }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  padding-bottom: 60px !important;
+  overflow-x: hidden !important;
+  font-size: 14px !important;
+  background: #fbfbfb !important;
+  font-family: 'Rubik', sans-serif !important;
+  color: #131c2e !important;
+}
+
+.form-group,
+.form-group label,
+.form-group input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  background-color: #eeeeee;
+  outline-width: 0;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  border-bottom: 3px solid #ffb703;
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  font-weight: 700;
+  background-color: #ffb703;
+  color: #ffffff;
+}
+
+.error-message {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+  background: red;
+  color: #ffffff;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.success-message {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+  background: green;
+  color: #ffffff;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.home,
+.reports,
+.configs {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+ol,
+ul {
+  padding-left: 0 !important;
+}
+
+.daterangepicker .ranges li {
+  border-radius: 5px;
+  color: #57627a;
+  font-size: 11px;
+  background-color: #edeff3;
+  border-color: #edeff3;
+}
+
+.daterangepicker .ranges li.active,
+.daterangepicker .ranges li:hover {
+  background: #57627a;
+  border: 1px solid #57627a;
+  color: #000;
+}
+
+.daterangepicker .calendar-table thead th,
+.daterangepicker .calendar-table thead td {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.daterangepicker .calendar-table th,
+.daterangepicker .calendar-table td {
+  padding: 7px 3px;
+  font-size: 11px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.daterangepicker .range_inputs .btn {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.daterangepicker .range_inputs .applyBtn {
+  background-color: #2d7bf4 !important;
+  border: 1px solid #2d7bf4 !important;
+  color: #fff;
+}
+
+.fixed-action-buttons {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 11;
+  width: 70px;
+}
+
+.addsidebar-button,
+.default-action-button {
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  opacity: 1;
+  border: none;
+  visibility: visible;
+  line-height: 70px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 50% 0 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  float: right;
+}
+
+.addsidebar-button i,
+.default-action-button i {
+  display: block;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+  line-height: 70px;
+  font-size: 25px;
+}
+
+.fi-plus:before {
+  content: '+';
+}
+
+.fi-close:before {
+  content: 'x';
+}
+
+.close-button-action {
+  background: #9197a7 !important;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.addsidebar.show .add-wrapper {
+  opacity: 1;
+  margin-right: 20px;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.addsidebar .add-wrapper {
+  opacity: 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  padding: 50px 30px 20px;
+  color: #434959;
+  height: calc(100% - 40px);
+  width: 400px;
+  display: block;
+  float: right;
+  border-radius: 20px;
+  margin: 20px 30px 20px 0;
+  background: #ffffff;
+  margin-right: -50px;
+}
+
+.addsidebar .header-title {
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px !important;
+  color: #bec4d6;
+}
+
+.addsidebar.show {
+  opacity: 1;
+  background: rgba(49, 58, 70, 0.6);
+  visibility: visible;
+  display: block;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+.addsidebar {
+  z-index: 10;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0);
+  visibility: hidden;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin-right: -100%;
+  right: 100%;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: #ffffff;
+  -webkit-transition: background 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    width 0.3s ease-in-out 0.3s;
+  -moz-transition: background 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    width 0.3s ease-in-out 0.3s;
+  -o-transition: background 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    width 0.3s ease-in-out 0.3s;
+  transition: background 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    width 0.3s ease-in-out 0.3s;
+}
+
+.addsidebar label {
+  color: #434959 !important;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+}

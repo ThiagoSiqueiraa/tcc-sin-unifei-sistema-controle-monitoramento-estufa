@@ -1,0 +1,25 @@
+.plant-wrapper {
+  display: flex;
+  height: 80vh;
+  border: 1px solid black;
+}
+
+.plant-info {
+  width: 35%;
+}
+
+.plant-image {
+  height: 100px; /*Set any dimensions you like*/
+  width: 100%;
+}
+
+.plant-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.plant-events {
+  background: red;
+  width: 100%;
+}

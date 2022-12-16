@@ -1,0 +1,11 @@
+.wrapper-container-chart{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.half-width{
+    width: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}

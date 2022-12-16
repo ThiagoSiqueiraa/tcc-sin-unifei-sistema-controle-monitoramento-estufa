@@ -1,0 +1,69 @@
+.info-sensor-container {
+  height: 120px;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+}
+
+.info-sensor {
+  
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+}
+
+.info-sensor-title {
+  font-size: 14px;
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: bold;
+}
+
+.sensor-icon{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info-sensor-title svg,
+path {
+  font-size: 48px;
+}
+
+.info-sensor span {
+  display: block;
+  color: black;
+  margin-left: 10px;
+
+}
+
+.info-sensor .sensor-value{
+  font-weight: bold;
+}
+
+.container-test {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 16px;
+  width: 30%;
+}
+
+.info-sensor small {
+  color: grey;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.sensor-pill{
+  color: red;
+  border: 2px solid red;
+  border-radius: 8px;
+  width: 70px;
+  height: 24px;
+  /* padding: 5px; */
+  text-align: center;
+}

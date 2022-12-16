@@ -1,0 +1,86 @@
+.rule__card{
+    min-height: 400px;
+}
+
+.rule__wrapper {
+    background: linear-gradient(to bottom, #d6dbe3, #bdc2cb);
+        min-height: calc(100vh - 115px);
+}
+
+.rule__container{
+    background: radial-gradient(circle, rgba(232,235,240,1) 58%, rgba(218,222,230,1) 100%);
+    min-height: calc(100vh - 115px);
+
+}
+
+.fixed_wrapper{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.rule__header{
+    min-height: 100px;
+    position: relative;
+}
+
+.rule__actions{
+    margin-right: 5px;
+    display: none;
+}
+
+.m-r-5{
+    margin-right: 5px !important;
+}
+
+.rule__stack{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+    
+}
+.rule_name__pill{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 40px;
+    border-radius: 2%;
+    margin: 20px auto !important;
+    text-align: center;
+}
+
+.rule_name__pill p{
+
+}
+
+.rule__device{
+    margin-bottom: 10%;
+    width: 80%;
+}
+
+.rule__device__item{
+    width: 100%;
+}
+
+.rule__device__expand:hover{
+    cursor: pointer;
+
+}
+
+.rule__condition{
+    background-color: #dde1e6;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.pending__save{
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+    top: 15px;
+}

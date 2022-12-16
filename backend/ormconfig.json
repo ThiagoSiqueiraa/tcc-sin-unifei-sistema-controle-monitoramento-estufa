@@ -1,0 +1,12 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": "27017",
+  "database": "estufa_inteligente",
+  "migrations": ["./src/database/migrations/*.ts"],
+  "entities": ["./src/modules/**/entities/*.ts", "./dist/modules/**/entities/*.js"],
+  
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}

@@ -1,0 +1,39 @@
+.box select,
+input[type='number'] {
+  margin-bottom: 1em;
+  padding: 0.25em;
+  border: 0;
+  border-bottom: 2px solid currentColor;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  border-radius: 0;
+}
+
+.box.created select,
+.box.created input[type='number'] {
+  border-bottom: 2px solid green !important;
+}
+
+.box select:focus,
+select:active {
+  outline: 0;
+  border-bottom-color: red;
+}
+.box::before {
+  content: '\f13a';
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+
+  pointer-events: none;
+}
+
+.box select option {
+  padding: 30px;
+}

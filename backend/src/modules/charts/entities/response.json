@@ -1,0 +1,47 @@
+{
+    "code": 200,
+    "dashboard_id": "120",
+    "custom_chart": {
+        "id": "317",
+        "dashboard_id": "120",
+        "title": "teste",
+        "position": "2",
+        "event_id": "11",
+        "config": "{\"size\": \"full\", \"type\": \"line\", \"extra\": null, \"groups\": null, \"metrics\": null, \"type_count\": \"count_simple\", \"fixed_extra\": \"\"}",
+        "created_at": "2022-10-22 21:06:32",
+        "updated_at": "2022-10-22 21:06:32",
+        "deleted_at": null,
+        "event_name": "livechat_conversation_closed_by_agent",
+        "events_per_day": [],
+        "custom_chart_count": [
+            {
+                "date": "2022-10-16",
+                "count": 0
+            },
+            {
+                "date": "2022-10-17",
+                "count": 0
+            },
+            {
+                "date": "2022-10-18",
+                "count": 0
+            },
+            {
+                "date": "2022-10-19",
+                "count": 0
+            },
+            {
+                "date": "2022-10-20",
+                "count": 0
+            },
+            {
+                "date": "2022-10-21",
+                "count": 0
+            },
+            {
+                "date": "2022-10-22",
+                "count": 0
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+.device-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.icon-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-container svg {
+  color: black;
+  font-size: 300px;
+  width: 120px;
+  margin: 0 !important;
+}
+
+.wrapper-rele-input {
+  font-family: 'Poppins', 'sans-serif';
+}
+
+.rele-input-status {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+}
